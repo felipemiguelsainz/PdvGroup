@@ -1,0 +1,276 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-------navbar-------*/
+.navbar{
+    height: 70px;
+    background-color: lightgrey;
+}
+.logo{
+    width:auto;
+    height:50px;
+}
+/*-------landing-------*/
+.landing{
+    width: 100%;
+    background-color: #3c3c3c;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-attachment: contain;
+    overflow: hidden;
+}
+.containerOnImage{
+    width: 100%;
+    height:80vh;
+    display: flex;
+    align-items: center;
+}
+.textOnImage{
+    margin-left: 20%;
+}
+.textOnImage > p{
+    font-size:30px;
+}
+.brandTitle{
+    color: white;
+    font-size:100px;
+}
+.dynamicText{
+    font-size:35px;
+    color:rgb(135, 134, 134);
+}
+.imgContainer{
+    width: auto;
+    height: 600px;
+    transform: scaleX(-1);
+    position: relative;
+    overflow: hidden;
+    left: 40%;
+}
+/*-------containerHorizontal-------*/
+.containerHorizontal{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+.containerHorizontal > img{
+    height: 150px;
+}
+.arrow{
+    height: 60px!important; 
+    transform: scaleX(-1);
+    transform:rotate(30deg);
+}
+/*-------companyContainer-------*/
+.companyContainer{
+    height:900px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    transition: background-color 1s;
+}
+.mainTextContainer{
+    background-color: rgb(228, 227, 227);
+    height: 600px;
+    width: 1100px;
+    border-radius:10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: background-color 1s;
+}
+.mainTextContainer:hover{
+    background-color: white;
+    transition: 1s;
+}
+.mainText:hover{
+    background-color: #3c3c3c;
+    color: white;
+    transition: 1s;
+}
+.mainImg{
+    height:350px;
+    position: absolute;
+    left: -120px;
+    top: 100px;
+    border-radius: 300px;
+}
+.mainText{
+    text-align: justify;
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 700px;
+    font-size: 25px;
+    font-weight: 200;
+    margin-right: 5%;
+    border-radius: 20px;
+    color: rgb(92, 92, 92);
+    padding: 4%;
+}
+.bold{
+    font-style: bold;
+    font-weight: 600;
+}
+.imgIcon{
+    width: 30%;
+    height: auto;
+}
+.imgLogo{
+    border-radius: 20px;
+    width: 180px;
+    height: 300px;
+}
+/*-------companyContainer-------*/
+.mainTextContainerServices{
+    background-color: rgb(228, 227, 227);
+    height: 600px;
+    width: 1100px;
+    border-radius:10px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: background-color 1s;
+    flex-wrap: wrap;
+
+}
+.mainTextContainerServices:hover{
+    background-color: white;
+    transition: 1s;
+}
+.mainTextServices{
+    text-align: justify;
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 200;
+    border-radius: 20px;
+    color: rgb(92, 92, 92);
+    padding: 4%;
+    transition: background-color 1s;
+}
+.mainTextServices:hover{
+    background-color: #3c3c3c;
+    color: white;
+    transition: 1s;
+}
+.buttonServices{
+    background-color: lightgray;
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+    margin-top: 20px;
+    padding: 2%;
+    transition: background-color 1s;
+    border-radius: 20px;
+}
+.buttonServices:hover{
+    background-color: #3c3c3c;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*-------footer-------*/
+.containerFooter{
+    background-color: #3c3c3c;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.sectionLinks{
+    height: 100%;
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.sectionLinks > ul{
+    list-style: none;
+}
+.sectionLinks > ul > li{
+    margin: 20px 0px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.sectionMap{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+map{
+    width:600px;
+    height:2700px;
+}
+@media all and (max-width: 1100px) {
+    /*-------landing-------*/
+    .landing{
+        overflow: auto;
+    }
+    .containerOnImage{
+        height: 70vh;
+    }
+    .textOnImage{
+        margin-left: 10%;
+    }
+    .brandTitle{
+        font-size: 70px;
+    }
+    .imgContainer{
+        left: 0%;
+    }
+    /*-------containerHorizontal-------*/
+    .containerHorizontal{
+        justify-content: space-around;
+        height: 180px;
+        padding: 0px 50px;
+    }
+    .containerHorizontal > img{
+        height: 130px;
+    }
+    /*-------companyContainer-------*/
+    .companyContainer{
+        height: auto;
+        padding-top: 10%;
+    }
+    .mainTextContainer{
+        width: 90%;
+        margin: 15% 0%;
+        height: auto;
+        justify-content: center;
+        border-radius: 5%;
+    }
+    .mainImg{
+        height: 250px;
+        margin: auto;
+        left: inherit;
+        top: -170px;
+        position: absolute;
+    }
+    .mainText{
+        width: 95%;
+        margin-right: 0;
+        font-size: 30px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .imgIcon{
+    }
+}
