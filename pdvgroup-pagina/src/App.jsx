@@ -1,21 +1,12 @@
-import NavBarComponent from './Components/NavBarComponent/NavBarComponent';
-import Landing from './Components/Landing/Landing';
-import ContainerPpal from './Components/ContainerPpal/ContainerPpal';
-import ContainerEmpresas from './Components/ContainerEmpresas/ContainerEmpresas';
-import Services from './Components/ContainterServicios/Services';
-import Footer from './Components/Footer/Footer';
-
-
-
+import TopSleeve from './Components/TopSleeve'
+import NavBar from './Components/NavBar'
+import PpalContainer from './Components/PpalContainer';
 function App() {
   return (
     <>
-      <NavBarComponent/>
-      <Landing/>
-      <ContainerPpal/>
-      <ContainerEmpresas/>
-      <Services/>
-      <Footer/>
+      <TopSleeve/>
+      <NavBar/>
+      <PpalContainer/>
     </>
   );
 }

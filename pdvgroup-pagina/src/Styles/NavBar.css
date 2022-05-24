@@ -1,0 +1,35 @@
+.navbar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15vh;
+  padding: 0% 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-container div .logo {
+  font-size: 22px;
+}
+
+.navbar-container div li {
+  padding: 0% 5%;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=NavBar.css.map */

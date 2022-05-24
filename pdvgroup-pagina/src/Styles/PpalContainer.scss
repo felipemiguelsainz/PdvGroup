@@ -1,0 +1,32 @@
+.container-ppal{
+    height: 80vh;
+    background-image: url('../img/puertoiglesia.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    .container-text{
+        background-color: white;
+        height: 5vh;
+        width: 100%;
+        text-align: center;
+        padding: 3% 10%;
+        font-size: 20px;
+        
+    }
+    .img-ceo{
+        border-radius: 100em;
+        height: 250%;
+    }
+    .ceo-text{
+        color: gray;
+        font-size: 17px;
+        font-weight: 100;
+        .bold{
+            font-weight: bold;
+        }
+    }
+}
+

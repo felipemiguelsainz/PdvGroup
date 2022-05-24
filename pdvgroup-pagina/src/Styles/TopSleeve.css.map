@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAA;EAChB,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,8BAA8B;EAChD,mBAAmB,EAAE,aAAa;EAClC,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,QAAQ;EACzB,WAAW,EAAE,UAAU;CAC1B;;AACD,AAAA,EAAE,CAAA;EACE,WAAW,EAAE,EAAE;EACf,aAAa,EAAE,GAAG;EAClB,SAAS,EAAE,KAAK;CACnB",
+    "sources": [
+        "TopSleeve.scss"
+    ],
+    "names": [],
+    "file": "TopSleeve.css"
+}

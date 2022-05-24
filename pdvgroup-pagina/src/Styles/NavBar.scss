@@ -1,0 +1,21 @@
+.navbar-container{
+    display: flex;
+    height: 15vh;
+    padding: 0% 15%;
+    align-items: center;
+    div{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+        .logo{
+            font-size: 22px;
+        }
+        li{
+            padding: 0% 5%;
+        }
+    }
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}

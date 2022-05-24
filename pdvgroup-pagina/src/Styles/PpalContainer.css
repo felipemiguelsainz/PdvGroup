@@ -1,0 +1,39 @@
+.container-ppal {
+  height: 80vh;
+  background-image: url("../img/puertoiglesia.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container-ppal .container-text {
+  background-color: white;
+  height: 5vh;
+  width: 100%;
+  text-align: center;
+  padding: 3% 10%;
+  font-size: 20px;
+}
+
+.container-ppal .img-ceo {
+  border-radius: 100em;
+  height: 250%;
+}
+
+.container-ppal .ceo-text {
+  color: gray;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.container-ppal .ceo-text .bold {
+  font-weight: bold;
+}
+/*# sourceMappingURL=PpalContainer.css.map */
