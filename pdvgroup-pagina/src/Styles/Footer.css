@@ -1,0 +1,74 @@
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #2d2d2d;
+  color: white;
+}
+
+footer .container {
+  margin-top: 2%;
+  padding-bottom: 2%;
+  width: 30%;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .container .title {
+  width: 100%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer .container .list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .container .list .icon-list {
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 40px;
+}
+
+@media (max-width: 500px) {
+  footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 5% 0%;
+  }
+  footer .social {
+    display: none;
+  }
+  footer .container {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

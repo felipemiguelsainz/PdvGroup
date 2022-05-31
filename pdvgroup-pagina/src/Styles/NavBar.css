@@ -27,6 +27,7 @@
 
 .navbar-container div li {
   padding: 0% 5%;
+  cursor: pointer;
 }
 
 * {

@@ -6,7 +6,7 @@ function NavBar () {
             <div>
                 <li><Link to='Home'>Home</Link></li>
                 <li><Link to='about' smooth={true}>About</Link></li>
-                <li><Link to='Blog'>Blog</Link></li>
+                <li><Link to='questions' smooth={true}>Contact</Link></li>
             </div>
             <div>
 

@@ -7,26 +7,37 @@
     background-attachment: fixed;
     display: flex;
     align-items: flex-end;
-    .container-text{
-        background-color: white;
-        height: 5vh;
-        width: 100%;
+}
+.container-text{
+    display: flex;
+    align-items: flex-end;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1% 0%;
+    p{
         text-align: center;
-        padding: 3% 10%;
         font-size: 20px;
-        
+        padding: 1% 10%;
     }
-    .img-ceo{
-        border-radius: 100em;
-        height: 250%;
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
-    .ceo-text{
-        color: gray;
-        font-size: 17px;
-        font-weight: 100;
-        .bold{
-            font-weight: bold;
-        }
+.img-ceo{
+    border-radius: 100em;
+    height: 100px;
+}
+.ceo-text{
+    color: gray;
+    font-size: 17px;
+    font-weight: 100;
+    .bold{
+        font-weight: bold;
     }
+}
 }
 

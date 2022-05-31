@@ -13,27 +13,52 @@
           align-items: flex-end;
 }
 
-.container-ppal .container-text {
+.container-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   background-color: white;
-  height: 5vh;
   width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1% 0%;
+}
+
+.container-text p {
   text-align: center;
-  padding: 3% 10%;
   font-size: 20px;
+  padding: 1% 10%;
 }
 
-.container-ppal .img-ceo {
+.container-text div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-text .img-ceo {
   border-radius: 100em;
-  height: 250%;
+  height: 100px;
 }
 
-.container-ppal .ceo-text {
+.container-text .ceo-text {
   color: gray;
   font-size: 17px;
   font-weight: 100;
 }
 
-.container-ppal .ceo-text .bold {
+.container-text .ceo-text .bold {
   font-weight: bold;
 }
 /*# sourceMappingURL=PpalContainer.css.map */
