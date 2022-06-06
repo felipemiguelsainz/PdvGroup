@@ -7,9 +7,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.navbar-container div {
+.navbar-container .items-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,13 +24,17 @@
           align-items: center;
 }
 
-.navbar-container div .logo {
+.navbar-container .items-container .logo {
   font-size: 22px;
 }
 
-.navbar-container div li {
+.navbar-container .items-container li {
   padding: 0% 5%;
   cursor: pointer;
+}
+
+.navbar-container .logo-container h1 {
+  font-size: 40px;
 }
 
 * {

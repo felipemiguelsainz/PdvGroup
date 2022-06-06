@@ -1,9 +1,8 @@
-import '../Styles/TopSleeve.css'
+import '../Styles/TopSleeve.css';
 
-function TopSleeve () {
-    return(
-        <div className="container-topsleeve">
-            <h1>PdvGroup</h1>
+function TopSleeve() {
+    return (
+        <div className='container-topsleeve'>
         </div>
     )
 }

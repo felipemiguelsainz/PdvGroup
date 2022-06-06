@@ -56,6 +56,10 @@ footer .container .list .icon-list {
   font-size: 40px;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 @media (max-width: 500px) {
   footer {
     -ms-flex-wrap: wrap;

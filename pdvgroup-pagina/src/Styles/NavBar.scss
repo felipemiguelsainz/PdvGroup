@@ -3,7 +3,8 @@
     height: 15vh;
     padding: 0% 15%;
     align-items: center;
-    div{
+    justify-content: space-between;
+    .items-container{
         display: flex;
         justify-content: space-around;
         list-style: none;
@@ -14,6 +15,11 @@
         li{
             padding: 0% 5%;
             cursor: pointer;
+        }
+    }
+    .logo-container{
+        h1{
+            font-size:40px;
         }
     }
 }

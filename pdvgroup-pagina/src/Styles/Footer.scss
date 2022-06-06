@@ -33,6 +33,9 @@ footer{
         }
     }
 }
+.pointer{
+    cursor: pointer;
+}
 @media (max-width:500px) {
     footer{
         flex-wrap: wrap;
